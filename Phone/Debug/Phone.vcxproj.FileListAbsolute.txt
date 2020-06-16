@@ -1,0 +1,2 @@
+E:\codes\vs2019\Demo\Phone\Debug\Phone.exe
+E:\codes\vs2019\Demo\Phone\Debug\Phone.pdb
