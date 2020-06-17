@@ -1,0 +1,2 @@
+E:\codes\vs2019\Demo\Phong\Debug\Phong.exe
+E:\codes\vs2019\Demo\Phong\Debug\Phong.pdb
