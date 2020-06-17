@@ -1,17 +1,20 @@
 #include "pch.h"
 #include "Matrix.h"
 
-Matrix::Matrix(int row, int col, double** data) {
+Matrix::Matrix(int row, int col, double* data) {
 	this->row = row;
 	this->col = col;
 	this->data = new double *[row];
 	for (int i = 0; i < row; i++) {
 		this->data[i] = new double[col];
 		for (int j = 0; j < col; j++) {
-			this->data[i][j] = data[i][j];
+			this->data[i][j] = *(data + i * this->col + j);
 		}
 	}
+}
 
+Matrix::~Matrix() {
+	delete[] this->data;
 }
 
 Matrix Matrix::Mul1(Matrix MA) {//一个矩阵类与这个运算

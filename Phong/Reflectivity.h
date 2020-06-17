@@ -21,18 +21,18 @@ protected:
 
 	DECLARE_MESSAGE_MAP()
 public:
-	double RefAroundG;
-	double RefAroundB;
-	double RefAroundR;
-	BOOL RefAroundC;
-	double RefRefR;
-	double RefRefG;
-	double RefRefB;
-	BOOL RefRefC;
-	double RefMirrorR;
-	double RefMirrorG;
-	double RefMirrorB;
-	BOOL RefMirrorC;
+	double m_AroundR;
+	double m_AroundG;
+	double m_AroundB;
+	BOOL m_AroundC;
+	double m_RefR;
+	double m_RefG;
+	double m_RefB;
+	BOOL m_RefC;
+	double m_MirrorR;
+	double m_MirrorG;
+	double m_MirrorB;
+	BOOL m_MirrorC;
 	int HighLight;
 	afx_msg void OnBnClickedOk();
 	afx_msg void OnBnClickedCancel();

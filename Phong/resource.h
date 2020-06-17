@@ -20,7 +20,7 @@
 #define IDC_EDIT8                       1010
 #define IDC_EDIT9                       1011
 #define IDC_EDIT10                      1012
-#define ID_32773                        32773
+#define ID_Reflectivity                 32773
 
 // Next default values for new objects
 // 

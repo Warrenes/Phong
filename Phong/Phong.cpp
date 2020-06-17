@@ -12,7 +12,7 @@
 #include "PhongDoc.h"
 #include "PhongView.h"
 
-#include "Reflectivity.h"
+#include "stdafx.h"
 
 #ifdef _DEBUG
 #define new DEBUG_NEW
@@ -28,7 +28,7 @@ BEGIN_MESSAGE_MAP(CPhongApp, CWinApp)
 	//ON_COMMAND(ID_FILE_OPEN, &CWinApp::OnFileOpen)
 	// 标准打印设置命令
 	//ON_COMMAND(ID_FILE_PRINT_SETUP, &CWinApp::OnFilePrintSetup)
-	ON_COMMAND(ID_32773, &CPhongApp::OnReflectivity)
+	ON_COMMAND(ID_Reflectivity, &CPhongApp::OnReflectivity)
 END_MESSAGE_MAP()
 
 
@@ -208,6 +208,5 @@ void CAboutDlg::OnBnClickedCancel()
 void CPhongApp::OnReflectivity()
 {
 	// TODO: 在此添加命令处理程序代码
-	Reflectivity reflectivity;
 	reflectivity.DoModal();
 }
